@@ -1,10 +1,14 @@
-<h1>Counter Operation</h1>
-<p>{{counter.count}}</p>
-<app-counter-buttons [buttonclass]="buttonPrimary.buttonclass" [buttontext]="buttonPrimary.buttontext"
-    [buttontype]="buttonPrimary.buttontype" (buttonFunction)="onIncrement()"></app-counter-buttons>
+<div class="counter-wrapper">
+    <h1>Counter Operation</h1>
+    <p>{{counter.count}}</p>
+    <div class="buttons-wrapper">
+        <app-counter-buttons [buttonclass]="buttonPrimary.buttonclass" [buttontext]="buttonPrimary.buttontext"
+            [buttontype]="buttonPrimary.buttontype" (buttonFunction)="onIncrement()"></app-counter-buttons>
 
-<app-counter-buttons [buttonclass]="buttonSecondary.buttonclass" [buttontext]="buttonSecondary.buttontext"
-    [buttontype]="buttonSecondary.buttontype" (buttonFunction)="onDecrement()"></app-counter-buttons>
+        <app-counter-buttons [buttonclass]="buttonSecondary.buttonclass" [buttontext]="buttonSecondary.buttontext"
+            [buttontype]="buttonSecondary.buttontype" (buttonFunction)="onDecrement()"></app-counter-buttons>
 
-<app-counter-buttons [buttonclass]="buttonReset.buttonclass" [buttontext]="buttonReset.buttontext"
-    [buttontype]="buttonReset.buttontype" (buttonFunction)="onReset()"></app-counter-buttons>
+        <app-counter-buttons [buttonclass]="buttonReset.buttonclass" [buttontext]="buttonReset.buttontext"
+            [buttontype]="buttonReset.buttontype" (buttonFunction)="onReset()"></app-counter-buttons>
+    </div>
+</div>

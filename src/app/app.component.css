@@ -1,0 +1,12 @@
+.app-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+h1 {
+    color: rgb(188, 207, 14);
+}

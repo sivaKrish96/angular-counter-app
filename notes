@@ -1,0 +1,11 @@
+# NgRx State management Framework:
+
+    The NgRx was a JavaScript framework it was used for state management in Reactive Programming.
+    some inportant libraries was used in this NgRx framework for managing state.
+
+        1. Managing Global level as well as the Local level state.
+        2. NgRx Routing.
+        3. Isolating the side effects from the component for making the component independent from side effects.
+        4. Using the developer tools to track the action, reducer as well as the state data's.
+
+# State:
